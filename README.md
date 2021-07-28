@@ -49,7 +49,7 @@ Datasets: The dataset is provided by Udacity. It can also be obtained from [here
 
 Clone the repository:
 ```
-  $  git clone nazianafis.git
+  $  git clone https://github.com/nazianafis/Sparkify-Churn-Prediction.git
 ```
 Run the ipython notebook that is in 'app' folder:
 ```
