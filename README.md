@@ -10,7 +10,8 @@
 4. [Achievements](#achievements)
     1. [What has been achieved?](#achieved)
     2. [What more can be achieved?](#moreachieve)
-6. [Author](#author)
+6. [Reflections](#reflect) 
+7. [Author](#author)
 
 ## Overview <a name="overview"></a>
 Business need to retain their customers in order to thrive. Churn (the process of losing customers) is therefore an important business problem.
@@ -40,7 +41,6 @@ This project makes use of a tiny subset (~128MB) of the full dataset (~12GB), pr
 *    Libraries: PySpark, Pandas, Seaborn
 *    Data Visualization: Matplotlib
 
-
 ### Installation <a name="installation"></a>
 
 Datasets: The dataset is provided by Udacity. It can also be obtained from [here](https://github.com/nazianafis/Sparkify-Churn-Prediction/blob/main/data/mini_sparkify_event_data.zip).
@@ -51,7 +51,7 @@ Clone the repository:
 ```
   $  git clone https://github.com/nazianafis/Sparkify-Churn-Prediction.git
 ```
-Run the ipython notebook that is in 'app' folder:
+Run the Sparkify-1 ipython notebook that is in 'app' folder:
 ```
   $ python3 Sparkify-1.ipynb
 ```
@@ -81,10 +81,22 @@ Run the ipython notebook that is in 'app' folder:
         1. Naive predictor
         2. Logistic regression
         3. Random forest
+    5. Hyperparameter tuning
+
+![performance](https://github.com/nazianafis/Sparkify-Churn-Prediction/blob/main/img/ss3.png)
 
 ### What more can be achieved? <a name="moreachieve"></a>
 
-Machine learning task can be scaled up on the large dataset (~12GB) on a cloud service such as AWS or IBM Watson.
+The machine learning task can be scaled up on the large dataset (~12GB) on a cloud service such as Amazon AWS or IBM Watson.
+
+## Reflections <a name="reflect"></a>
+
+* In order to remain a thriving and sucessful music streaming service, Sparkify needs to take action to reduce churn. The machine learning model is able to predict churn quite well, which can assist Sparkify in prioritizing the retaining of users who have the highest probability of churn.
+    * The model performance can be further improved by tuning broader ranges of hyperparameters and/or engineering additional features.
+* Currently, churn relates to users who have received more advertisements, who have disliked more songs, and who have registered for the service comparatively recently.
+![churn](https://github.com/nazianafis/Sparkify-Churn-Prediction/blob/main/img/ss2.png)
+* These characteristics of churn can also assist Sparkify regarding what actions to take.
+    * For example, reducing the amount of advertisements and improving music recommendation algorithms are all actions that will be beneficial.
 
 ## Author <a name="author"></a>
 * [Nazia N.](https://github.com/nazianafis)
