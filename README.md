@@ -94,9 +94,7 @@ The machine learning task can be scaled up on the large dataset (~12GB) on a clo
 * The machine learning model is able to predict churn reasonably well (with f1 score of 0.74).
     * Model performance can further be improved by tuning the hyperparameters or incorporating additional features.
 * The most important features in churn prediction are the time since user’s registration, the amount of advertisements that user has encountered and the number of thumbs up/thumbs down the user has given.
-    * This information can be utilized by Sparkify to chart out a plan as to what actions to take. Reducing the amount of advertisements could be one. Another could be to figure out why relatively newer customers are churning more..
-
-![churn](https://github.com/nazianafis/Sparkify-Churn-Prediction/blob/main/img/ss2.png)
+    * This information can be utilized by Sparkify to chart out a plan as to what actions to take. Reducing the amount of advertisements could be one. Another could be to figure out why relatively newer customers are churning more.
 
 ## Author <a name="author"></a>
 * [Nazia N.](https://github.com/nazianafis)
