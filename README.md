@@ -1,4 +1,7 @@
 # Sparkify-Churn-Prediction
+Customer churn can be tricky for businesses. In this project, I develop a machine learning model to help predict churn.
+
+Check out my [blog post](https://nazianafis.medium.com/predicting-customer-churn-for-music-streaming-service-sparkify-3e281a93273) for a write-up on the findings!
 
 ## Table of Contents
 
@@ -10,7 +13,7 @@
 4. [Achievements](#achievements)
     1. [What has been achieved?](#achieved)
     2. [What more can be achieved?](#moreachieve)
-6. [Reflections](#reflect) 
+6. [Conclusion](#reflect) 
 7. [Author](#author)
 
 ## Overview <a name="overview"></a>
