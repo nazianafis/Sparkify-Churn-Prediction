@@ -51,9 +51,9 @@ Clone the repository:
 ```
   $  git clone https://github.com/nazianafis/Sparkify-Churn-Prediction.git
 ```
-Run the Sparkify-1 ipython notebook that is in 'app' folder:
+Run the Sparkify-Churn-Prediction ipython notebook that is in 'app' folder:
 ```
-  $ python3 Sparkify-1.ipynb
+  $ python3 Sparkify-Churn-Prediction.ipynb
 ```
 
 #### Achievements <a name="achievements"></a>
