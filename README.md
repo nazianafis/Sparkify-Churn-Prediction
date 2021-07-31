@@ -87,16 +87,16 @@ Run the Sparkify-1 ipython notebook that is in 'app' folder:
 
 ### What more can be achieved? <a name="moreachieve"></a>
 
-The machine learning task can be scaled up on the large dataset (~12GB) on a cloud service such as Amazon AWS or IBM Watson.
+The machine learning task can be scaled up on the large dataset (~12GB) on a cloud service such as Amazon AWS.
 
-## Reflections <a name="reflect"></a>
+## Conclusion <a name="reflect"></a>
 
-* In order to remain a thriving and sucessful music streaming service, Sparkify needs to take action to reduce churn. The machine learning model is able to predict churn quite well, which can assist Sparkify in prioritizing the retaining of users who have the highest probability of churn.
-    * The model performance can be further improved by tuning broader ranges of hyperparameters and/or engineering additional features.
-* Currently, churn relates to users who have received more advertisements, who have disliked more songs, and who have registered for the service comparatively recently.
+* The machine learning model is able to predict churn reasonably well (with f1 score of 0.74).
+    * Model performance can further be improved by tuning the hyperparameters or incorporating additional features.
+* The most important features in churn prediction are the time since user’s registration, the amount of advertisements that user has encountered and the number of thumbs up/thumbs down the user has given.
+    * This information can be utilized by Sparkify to chart out a plan as to what actions to take. Reducing the amount of advertisements could be one. Another could be to figure out why relatively newer customers are churning more..
+
 ![churn](https://github.com/nazianafis/Sparkify-Churn-Prediction/blob/main/img/ss2.png)
-* These characteristics of churn can also assist Sparkify regarding what actions to take.
-    * For example, reducing the amount of advertisements and improving music recommendation algorithms are all actions that will be beneficial.
 
 ## Author <a name="author"></a>
 * [Nazia N.](https://github.com/nazianafis)
