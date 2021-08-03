@@ -56,7 +56,7 @@ Clone the repository:
 ```
 Run the Sparkify-Churn-Prediction ipython notebook that is in 'app' folder:
 ```
-  $ python3 Sparkify-Churn-Prediction.ipynb
+  $ python3 spark.ipynb
 ```
 
 #### Achievements <a name="achievements"></a>
